@@ -1,0 +1,19 @@
+{
+  "name": "filmlist",
+  "version": "0.0.0",
+  "description": "Show relevant information about films in a list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Michael Heap",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~3.2.4",
+    "nunjucks": "~0.1.8a",
+    "redis": "~0.8.3",
+    "request": "~2.21.0",
+    "async": "~0.2.8"
+  }
+}

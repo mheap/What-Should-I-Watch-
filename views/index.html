@@ -1,0 +1,10 @@
+<table>
+{% for film in films %}
+<tr>
+	<td>{{film.Title}}</td>
+	<td>{{film.Runtime}}</td>
+	<td>{{film.Genre}}</td>
+	<td>{{film.Released}}</td>
+</tr>
+{% endfor %}
+</table>
